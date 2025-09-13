@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'TINTSFX',
   description: 'Editorial, cinematic, minimal design studio',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({

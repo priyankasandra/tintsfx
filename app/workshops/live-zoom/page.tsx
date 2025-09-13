@@ -83,19 +83,19 @@ export default function LiveZoomWorkshop() {
                   (Global)
                 </h2>
                 <p className="text-xl text-gray-300">
-                  Oct 18, 2025 • ₹5,000 ($60)
+                  Nov 8, 2025 • ₹3,000 ($36)
                 </p>
               </div>
               
               {/* Mobile Booking Card */}
               <div className="lg:hidden bg-black border border-gray-800 p-6 rounded-lg">
                 <div className="text-right mb-4">
-                  <div className="text-3xl font-bold text-white">₹5,000</div>
-                  <div className="text-gray-300">Oct 18, 2025</div>
+                  <div className="text-3xl font-bold text-white">₹3,000</div>
+                  <div className="text-gray-300">Nov 8, 2025</div>
                   <div className="text-brand-orange font-medium mt-2">14 SEATS LEFT</div>
                 </div>
                 <BookSeatButton 
-                  amountINR={5000}
+                  amountINR={3000}
                   label="BOOK SEAT"
                 />
               </div>
@@ -240,12 +240,12 @@ export default function LiveZoomWorkshop() {
               {/* Desktop Booking Card */}
               <div className="hidden lg:block bg-black border border-gray-800 p-6 rounded-lg sticky top-24">
                 <div className="text-right mb-6">
-                  <div className="text-3xl font-bold text-white">₹5,000</div>
-                  <div className="text-gray-300">Oct 18, 2025</div>
+                  <div className="text-3xl font-bold text-white">₹3,000</div>
+                  <div className="text-gray-300">Nov 8, 2025</div>
                   <div className="text-brand-orange font-medium mt-2">14 SEATS LEFT</div>
                 </div>
                 <BookSeatButton 
-                  amountINR={5000}
+                  amountINR={3000}
                   label="BOOK SEAT"
                 />
               </div>
