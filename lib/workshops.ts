@@ -31,7 +31,7 @@ export const workshopEvents: WorkshopEvent[] = [
     level: "Beginner",
     start: "2025-11-08T14:00:00+05:30",
     end: "2025-11-08T18:00:00+05:30",
-    priceINR: 3000,
+    priceINR: 5000,
     seatsLeft: 14,
     slug: "/workshops/live-zoom"
   }
